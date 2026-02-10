@@ -4,15 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Libray from './chapter_03/Library';
-import Clock from './chapter_04/Clock';
-import CommentList from './chapter_05/CommentList';
-import Notificationlist from './chapter_06/NotificationList';
+import Libray from './sople/chapter_03/Library';
+import Clock from './sople/chapter_04/Clock';
+import CommentList from './sople/chapter_05/CommentList';
+import Notificationlist from './sople/chapter_06/NotificationList';
+import Accomodate from './sople/chapter_07/Accomodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Notificationlist />
+    <Accomodate />
   </React.StrictMode>,
 );
 
