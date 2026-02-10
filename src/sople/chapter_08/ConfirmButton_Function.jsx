@@ -9,10 +9,11 @@ function ConfirmButton_Function() {
     };
 
     // 방법 2. arrow function을 사용하여 정의
-    const handleConfirm = () => {
+    /*const handleConfirm = () => {
         setIsConfirmed((prevIsConfimed) => !prevIsConfimed);
     };
-
+    */
+   
     return (
         <button onClick={handleConfirm} disaled={isConfirmed}>
             {isConfirmed ? "확인됨" : "확인하기"}
