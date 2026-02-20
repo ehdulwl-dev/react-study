@@ -11,11 +11,12 @@ import Notificationlist from './sople/chapter_06/NotificationList';
 import Accomodate from './sople/chapter_07/Accomodate';
 import ConfirmButtton_Function from './sople/chapter_08/ConfirmButton_Function';
 import LandingPage from './sople/chapter_09/LandingPage';
+import AttendenceBook from './sople/chatper_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendenceBook />
   </React.StrictMode>,
 );
 
