@@ -1,4 +1,3 @@
-import { getNextKeyDef } from "@testing-library/user-event/dist/keyboard/getNextKeyDef";
 import React, {useState} from "react";
 
 function SignUp(props){

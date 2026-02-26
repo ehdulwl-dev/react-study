@@ -12,7 +12,7 @@ import Accomodate from './sople/chapter_07/Accomodate';
 import ConfirmButtton_Function from './sople/chapter_08/ConfirmButton_Function';
 import LandingPage from './sople/chapter_09/LandingPage';
 import AttendenceBook from './sople/chatper_10/AttendanceBook';
-import SignUp from './sople/chapter_11/SignUp';
+import SignUp from './sople/chapter_11/SignUp'
 import Calculator from './sople/chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
