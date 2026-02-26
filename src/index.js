@@ -12,11 +12,12 @@ import Accomodate from './sople/chapter_07/Accomodate';
 import ConfirmButtton_Function from './sople/chapter_08/ConfirmButton_Function';
 import LandingPage from './sople/chapter_09/LandingPage';
 import AttendenceBook from './sople/chatper_10/AttendanceBook';
+import SignUp from './sople/chapter_11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AttendenceBook />
+    <SignUp />
   </React.StrictMode>,
 );
 
