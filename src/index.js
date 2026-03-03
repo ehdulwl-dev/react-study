@@ -16,11 +16,12 @@ import SignUp from './sople/chapter_11/SignUp'
 import Calculator from './sople/chapter_12/Calculator';
 import Card from './sople/chapter_13/Card';
 import ProfileCard from './sople/chapter_13/ProfileCard';
+import DarkOrLight from './sople/chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrLight />
   </React.StrictMode>,
 );
 
